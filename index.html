@@ -1,9 +1,10 @@
-<!DOCTYPE html>
+<!DOCTYPE html public "-//W3C//DTD XHTML 1.0 Transitional //EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html lang="fr" dir="auto" xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
     <head>
         <!-- Meta -->
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="x-apple-disable-message-reformatting">
         <meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE" />
         <!-- police -->
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet" type="text/css">
@@ -46,10 +47,80 @@
         </style>
         <!-- Style CSS -->
         <style type="text/css">   
+            .logo {
+                display: block;
+                width: 200px;
+            }
+            .logo-2 {
+                display: block;
+                width: 180px;
+            }
+            .banner {
+                display: block;
+                width: 100%;
+            }
+            .picture {
+                display: block;
+                width: 200px;
+            }
+            .align-left {
+                text-align: left;
+            }
+            .align-right {
+                text-align: right;
+            }
+            .padding-title {
+                padding: 0px 20px 0px 40px;
+            }
+            .padding-text {
+                padding: 0px 0px 0px 40px;
+            }
+            .padding-text-2 {
+                padding: 0px 0px 0px 50px;
+            }
+            .padding-text-3 {
+                padding: 25px;
+            }
+            .padding-text-4 {
+                padding: 0px 10px 0px 50px;
+            }
+            /* Responsive max-width 600px */
             @media screen and (max-width: 600px) {
                 .block {
                     display: block !important;
                     width: 100% !important;
+                    padding-bottom: 30px;
+                }
+                .logo {
+                    width: 65%;
+                }
+                .logo-2 {
+                    display: inline;
+                    width: 65%;
+                }
+                .picture {
+                    width: 85%;
+                }
+                .align-left {
+                    text-align: center;
+                }
+                .align-right {
+                    text-align: center;
+                }
+                .padding-title {
+                    padding: 10px;
+                }
+                .padding-text {
+                    padding: 10px;
+                }
+                .padding-text-2 {
+                    padding: 10px;
+                }
+                .padding-text-3 {
+                    padding: 0px;
+                }
+                .padding-text-4 {
+                    padding: 10px;
                 }
             } 
         </style>
@@ -58,9 +129,9 @@
         <div style="margin:0px auto; max-width:600px;">
             <table width="100%" style="background-color: #EFEEEA;" align="center" border="0" cellpadding="0" cellspacing="0" role="presentation">
                 <tbody>
-                    <tr align="center" height="130px">
+                    <tr align="center" height="130px" width="100%">
                         <td>
-                            <a href="#"><img alt="logo" src="https://i.ibb.co/nQs8vht/logo.png" width="200px" height="auto"/></a>
+                            <img alt="logo" title="logo" class="logo" src="https://i.ibb.co/PF8SjNG/logo.png" />
                         </td>
                     </tr>
                 </tbody>
@@ -69,22 +140,22 @@
                 <tbody>
                     <tr align="center">
                         <td>
-                            <a href="#"><img alt="image-1" src="https://i.ibb.co/1R8ZbgZ/img-1.png" width="100%" height="auto"/></a>
+                            <img alt="banner" src="https://i.ibb.co/M6jSqPy/img-1.png" class="banner"/>
                         </td>
                     </tr>
                 </tbody>
             </table>
             <table width="100%" style="background-color: #EFEEEA;" align="center" border="0" cellpadding="0" cellspacing="0" role="presentation">
                 <tbody>
-                    <tr align="left">
-                        <td style="padding: 0px 20px 0px 40px;">
-                            <h1 style="font-size: 37px; font-family: 'Montserrat', sans-serif; margin-bottom: 0px; color: #000000;">Is SMS worth the upgrade?</h1>
-                            <h2 style="font-size: 35px; font-family: 'Montserrat', sans-serif; font-weight: 400; margin-top: 0px; color: #000000;"><i>(Spoiler alert: It sure is)</i></h2>
+                    <tr class="align-left">
+                        <td class="padding-title">
+                            <h1 style="font-size: 37px; margin-bottom: 0px; color: #000000;">Is SMS worth the upgrade?</h1>
+                            <h2 style="font-size: 35px; font-weight: 400; margin-top: 0px; color: #000000;"><i>(Spoiler alert: It sure is)</i></h2>
                         </td>
                     </tr>
-                    <tr align="left">
-                        <td style="padding: 0px 0px 0px 40px;">
-                            <p style="line-height: 25px; color: #000000; font-size: 15px; font-family: 'Montserrat', sans-serif;">
+                    <tr class="align-left">
+                        <td class="padding-text">
+                            <p style="line-height: 25px; color: #000000; font-size: 15px;">
                                 The secret's out. <strong>SMS Marketing is available with Mailchimp</strong><sup>1</sup> <br/>
                                 and it can bring powerful engagement to your campaigns and <br/> your customers' phones. How? With higher open rates than traditional <br/> emails, SMS can help you deliver personalized messages that matter. <br/> 
                                 Plus, it can fit right in with your existing campaigns to give your <br/> customers a seamless experience—no matter where they are.
@@ -96,7 +167,7 @@
                         </td>
                     </tr>
                     <tr>
-                        <td style="height: 30px;"></td>
+                        <td style="padding-top: 30px;"></td>
                     </tr>
                     <tr align="center">
                         <td>
@@ -104,7 +175,7 @@
                                 <tbody>
                                   <tr>
                                     <td align="center" style="border: 2px solid #241C15; border-radius: 30px; cursor:auto; background:#FFE01A;">
-                                      <a href="https://exemple.com" style="display:inline-block; color:#241C15; font-family: Montserrat, sans-serif; font-size: 16px; font-weight:600; margin:0; text-decoration:none; text-transform:none; padding:12px 25px;" target="_blank">Explore SMS</a>
+                                      <a href="https://exemple.com" style="display:inline-block; color:#241C15; font-size: 16px; font-weight:600; margin:0; text-decoration:none; text-transform:none; padding:12px 25px;" target="_blank">Explore SMS</a>
                                     </td>
                                   </tr>
                                 </tbody>
@@ -116,7 +187,7 @@
             <table width="100%" style="background-color: #EFEEEA;" align="center" border="0" cellpadding="0" cellspacing="0" role="presentation">
                 <tbody>
                     <tr>
-                        <td style="height: 70px;"></td>
+                        <td style="padding-top: 70px;"></td>
                     </tr>
                     <tr align="center">
                         <td style="border: 1px solid #000000;"></td>
@@ -126,15 +197,15 @@
             <table width="100%" style="background-color: #EFEEEA;" align="center" border="0" cellpadding="0" cellspacing="0" role="presentation">
                 <tbody>
                     <tr>
-                        <td style="height: 70px;"></td>
+                        <td style="padding-top: 70px;"></td>
                     </tr>
                     <tr align="center">
                         <td class="block" valign="top" width="45%">
-                            <a href="#"><img src="https://i.ibb.co/rQ7Vf0z/img-2.png" alt="image-2" width="200px" height="auto"></a>
+                           <img src="https://i.ibb.co/WVNH6y5/img-2.png" alt="image-2" class="picture">
                         </td>
                         <td class="block" valign="top" width="55%">
-                            <h3 align="left" style="margin-top: 0px; font-size: 20px; font-family: 'Montserrat', sans-serif;  color: #000000;">Build direct connections that inspire action</h3>
-                            <p align="left" style="line-height: 21px; font-family: 'Montserrat', sans-serif; font-size: 16px; color: #000000;">Higher open rates than traditional <br/>
+                            <h3 class="align-left" style="margin-top: 0px; font-size: 20px; color: #000000;">Build direct connections that inspire action</h3>
+                            <p class="align-left" style="line-height: 21px; font-size: 16px; color: #000000;">Higher open rates than traditional <br/>
                             email can help get your big-impact <br/> 
                             messages in front of <u>your contacts</u>. <br/>  
                             With that kind of reach, SMS can help <br/>
@@ -147,15 +218,15 @@
             <table width="100%" style="background-color: #EFEEEA;" align="center" border="0" cellpadding="0" cellspacing="0" role="presentation">
                 <tbody>
                     <tr>
-                        <td style="height: 90px;"></td>
+                        <td style="padding-top: 90px;"></td>
                     </tr>
                     <tr align="center">
                         <td class="block" valign="top" width="45%">
-                            <a href="#"><img src="https://i.ibb.co/pbtgLfs/img-3.png" alt="image-3" width="200px" height="auto"></a>
+                            <img src="https://i.ibb.co/wNqLz8x/img-3.png" alt="image-3" class="picture">
                         </td>
                         <td class="block" valign="top" width="55%">
-                            <h3 align="left" style="margin-top: 0px; font-size: 20px; font-family: 'Montserrat', sans-serif; color: #000000;">Build direct connections that inspire action</h3>
-                            <p align="left" style="line-height: 21px; font-family: 'Montserrat', sans-serif; font-size: 16px;  color: #000000;">Higher open rates than traditional <br/>
+                            <h3 class="align-left" style="margin-top: 0px; font-size: 20px; color: #000000;">Build direct connections that inspire action</h3>
+                            <p class="align-left" style="line-height: 21px; font-size: 16px;  color: #000000;">Higher open rates than traditional <br/>
                             email can help get your big-impact <br/> 
                             messages in front of <u>your contacts</u>. <br/>  
                             With that kind of reach, SMS can help <br/>
@@ -168,15 +239,15 @@
             <table width="100%" style="background-color: #EFEEEA;" align="center" border="0" cellpadding="0" cellspacing="0" role="presentation">
                 <tbody>
                     <tr>
-                        <td style="height: 90px;"></td>
+                        <td style="padding-top: 90px;"></td>
                     </tr>
                     <tr align="center">
                         <td class="block" valign="top" width="45%">
-                            <a href="#"><img src="https://i.ibb.co/SvJJ8Ss/img-4.png" alt="image-4" width="200px" height="auto"></a>
+                            <img src="https://i.ibb.co/7NnpxD1/img-4.png" alt="image-4" class="picture">
                         </td>
                         <td class="block" valign="top" width="55%">
-                            <h3 align="left" style="margin-top: 0px; font-size: 20px; font-family: 'Montserrat', sans-serif; color: #000000;">Build direct connections that inspire action</h3>
-                            <p align="left" style="line-height: 21px; font-family: 'Montserrat', sans-serif; font-size: 16px; color: #000000;">Higher open rates than traditional <br/>
+                            <h3 class="align-left" style="margin-top: 0px; font-size: 20px; color: #000000;">Build direct connections that inspire action</h3>
+                            <p class="align-left" style="line-height: 21px; font-size: 16px; color: #000000;">Higher open rates than traditional <br/>
                             email can help get your big-impact <br/> 
                             messages in front of <u>your contacts</u>. <br/>  
                             With that kind of reach, SMS can help <br/>
@@ -189,7 +260,7 @@
             <table width="100%" style="background-color: #EFEEEA;" align="center" border="0" cellpadding="0" cellspacing="0" role="presentation">
                 <tbody>
                     <tr>
-                        <td style="height: 50px;"></td>
+                        <td style="padding-top: 50px;"></td>
                     </tr>
                     <tr align="center">
                         <td style="border: 1px solid #000000;"></td>
@@ -199,12 +270,12 @@
             <table width="100%" style="background-color: #EFEEEA;" align="center" border="0" cellpadding="0" cellspacing="0" role="presentation">
                 <tbody>
                     <tr>
-                        <td style="height: 50px;"></td>
+                        <td style="padding-top: 50px;"></td>
                     </tr>
-                    <tr align="left">
+                    <tr class="align-left">
                         <td style="padding: 0px 25px 0px 25px;">
-                            <h4 style="color: #241C15; font-family: 'Montserrat', sans-serif; margin: 0px; font-size: 20px;">Ready to to add SMS Marketing to your campaigns?</h4>
-                            <p style="font-size: 16px; color: #241C15; font-family: 'Montserrat', sans-serif; line-height: 25px;">
+                            <h4 style="color: #241C15; margin: 0px; font-size: 20px;">Ready to to add SMS Marketing to your campaigns?</h4>
+                            <p style="font-size: 16px; color: #241C15; line-height: 25px;">
                                 Upgrade to any of our paid plans to start your SMS application today. <br/> 
                                 Once you're approved, you'll be able to personalize, schedule, send, <br/> 
                                 and optimize your messages—all within Mailchimp.3
@@ -217,7 +288,7 @@
                                 <tbody>
                                   <tr>
                                     <td align="center" style="border: 2px solid #241C15; border-radius: 30px; cursor:auto; background:#FFE01A;">
-                                      <a  href="https://exemple.com" style="display:inline-block; color:#241C15; font-family: Montserrat, sans-serif; font-size: 16px; font-weight:600; margin:0; text-decoration:none; text-transform:none; padding:12px 25px; line-height:120%;" target="_blank">Upgrade my plan</a>
+                                      <a  href="https://exemple.com" style="display:inline-block; color:#241C15; font-size: 16px; font-weight:600; margin:0; text-decoration:none; text-transform:none; padding:12px 25px; line-height:120%;" target="_blank">Upgrade my plan</a>
                                     </td>
                                   </tr>
                                 </tbody>
@@ -229,7 +300,7 @@
             <table width="100%" style="background-color: #EFEEEA;" align="center" border="0" cellpadding="0" cellspacing="0" role="presentation">
                 <tbody>
                     <tr>
-                        <td style="height: 50px;"></td>
+                        <td style="padding-top: 50px;"></td>
                     </tr>
                     <tr align="center">
                         <td style="border: 1px solid #000000;"></td>
@@ -239,12 +310,12 @@
             <table width="100%" style="background-color: #EFEEEA;" align="center" border="0" cellpadding="0" cellspacing="0" role="presentation">
                 <tbody>
                     <tr>
-                        <td style="height: 50px;"></td>
+                        <td style="padding-top: 50px;"></td>
                     </tr>
-                    <tr align="left">
-                        <td style="padding: 0px 0px 0px 50px;">
-                            <h4 style="color: #241C15; font-family: 'Montserrat', sans-serif; margin: 0px; font-size: 14px;">Disclaimers</h4>
-                            <p style="font-size: 12px; color: #241C15; font-family: 'Montserrat', sans-serif; line-height: 18px;">
+                    <tr class="align-left">
+                        <td class="padding-text-2">
+                            <h4 style="color: #241C15; margin: 0px; font-size: 14px;">Disclaimers</h4>
+                            <p style="font-size: 12px; color: #241C15; line-height: 18px;">
                                 1. SMS is available as an add-on to US paid plans only and SMS credits are added to <br/> 
                                 your account after purchase. Application and agreement to terms is required before <br/> 
                                 purchasing credits. Credits are issued monthly and unused credits expire and do not <br/> 
@@ -260,7 +331,7 @@
             <table width="100%" style="background-color: #EFEEEA;" align="center" border="0" cellpadding="0" cellspacing="0" role="presentation">
                 <tbody>
                     <tr>
-                        <td style="height: 40px;"></td>
+                        <td style="padding-top: 40px;"></td>
                     </tr>
                     <tr align="center">
                         <td style="border: 1px solid #000000;"></td>
@@ -269,9 +340,9 @@
             </table>
             <table width="100%" style="background-color: #EFEEEA;" align="center" border="0" cellpadding="0" cellspacing="0" role="presentation">
                 <tbody>
-                    <tr align="left">
+                    <tr class="align-left">
                         <td style="padding: 25px;">
-                            <a href="#"><img alt="logo" src="https://i.ibb.co/nQs8vht/logo.png" width="180px" height="auto"/></a>
+                            <img alt="logo" title="logo" class="logo-2" src="https://i.ibb.co/PF8SjNG/logo.png"/>
                         </td>
                     </tr>
                 </tbody>
@@ -279,14 +350,14 @@
             <table width="100%" style="background-color: #EFEEEA;" align="center" border="0" cellpadding="0" cellspacing="0" role="presentation">
                 <tbody>
                     <tr>
-                        <td style="padding-top: 10px;" align="left" class="block" valign="top" width="50%">
-                            <p style="font-size: 13px; color: #241C15; font-family: 'Montserrat', sans-serif; line-height: 18px;">©2023 Mailchimp <br/>
+                        <td  class="block align-left padding-text-3" valign="top" width="50%">
+                            <p style="font-size: 13px; color: #241C15; line-height: 18px;">©2023 Mailchimp <br/>
                             <u>675 Ponce De Leon Ave NE <br/>
                             Suite 5000 <br/>
                             Atlanta, GA 30308</u></p>
                         </td>
-                        <td style="padding-top: 10px;" align="right"  class="block" valign="top" width="50%">
-                            <p style="font-size: 13px; color: #241C15; font-family: 'Montserrat', sans-serif; line-height: 18px;">
+                        <td class="block align-right padding-text-3" valign="top" width="50%">
+                            <p style="font-size: 13px; color: #241C15; line-height: 18px;">
                                 <u>
                                     Privacy Policy <br/>
                                     Terms & Conditions <br/>
@@ -296,7 +367,7 @@
                         </td>
                     </tr>
                     <tr>
-                        <td style="height: 20px;"></td>
+                        <td style="padding-top: 20px;"></td>
                     </tr>
                 </tbody>
             </table>
@@ -304,10 +375,10 @@
                 <tbody>
                     <tr align="center">
                         <td class="block" valign="top" width="50%">
-                            <a href="#"><img alt="logo" src="https://i.ibb.co/xSr7pYk/social.png" width="130px" height="auto"/></a>
+                            <a href="#"><img alt="logo" src="https://i.ibb.co/N7DLw8g/social.png" width="130px" height="auto"/></a>
                         </td>
                         <td class="block" valign="top" width="50%">
-                            <a href="#"><img alt="logo" src="https://i.ibb.co/2jV9pdQ/player.png" width="180px" height="auto"/></a>
+                            <a href="#"><img alt="logo" src="https://i.ibb.co/6P1qSTL/player.png" width="180px" height="auto"/></a>
                         </td>
                     </tr>
                 </tbody>
@@ -315,17 +386,17 @@
             <table width="100%" style="background-color: #EFEEEA;" align="center" border="0" cellpadding="0" cellspacing="0" role="presentation">
                 <tbody>
                     <tr>
-                        <td style="height: 50px;"></td>
+                        <td style="padding-top: 30px;"></td>
                     </tr>
-                    <tr align="left">
-                        <td style="padding: 0px 10px 0px 50px;">
-                            <p style="font-size: 10px; font-family: 'Montserrat', sans-serif; color: #000000;">Mailchimp is a registered trademark of The Rocket Science Group. Apple and the Apple logo are <br/>
+                    <tr class="align-left">
+                        <td class="padding-text-4">
+                            <p style="font-size: 10px; color: #000000;">Mailchimp is a registered trademark of The Rocket Science Group. Apple and the Apple logo are <br/>
                             trademarks of Apple Inc., registered in the U.S. and other countries. Mac App Store is a service mark of <br/> 
                             Apple Inc. Google Play and the Google Play logo are trademarks of Google Inc.</p>
                         </td>
                     </tr>
                     <tr>
-                        <td style="height: 20px;"></td>
+                        <td style="padding-top: 20px;"></td>
                     </tr>
                 </tbody>
             </table>
